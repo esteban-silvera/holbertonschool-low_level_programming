@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
  *main - Prints "take a the diferents varialbes and convert a eters numbers"
@@ -10,11 +10,11 @@ int main(void)
 {
 	int intType;
 	float floatType;
-	double doubleType;
+	long int LongIntType;
 	char charType;
 	printf("Size of int: %zu bytes\n", sizeof(intType));
 	printf("Size of float: %zu bytes\n", sizeof(floatType));
-	printf("Size of double: %zu bytes\n", sizeof(doubleType));
+	printf("Size of double: %zu bytes\n", sizeof(LongIntType));
 	printf("Size of char: %zu byte\n", sizeof(charType));
 	return (0);
 }
