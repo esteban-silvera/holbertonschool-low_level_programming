@@ -12,17 +12,17 @@ int main(void)
 	srand(time(NULL));
 	int n = rand();
 
-	if (n > 0)
+	if (n > 0);
 	{
-		printf("is positive")
+		printf("is positive");
 	}
 	else if (n < 0)
 	{
-		prifnt("is negative")
+		prifnt("is negative");
 	}
 	else
 	{
-	       	prinft("is zero")
+	       	prinft("is zero");
 	}
 	return 0;
 }
