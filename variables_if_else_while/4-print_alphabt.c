@@ -10,7 +10,7 @@ int main(void)
 
 	for (NoQE = 'a'; NoQE <= 'z'; NoQE++)
 	{
-		if (NoQE != 'e' && 'q')
+		if (NoQE != 'e' && NoQE != 'q')
 		{
 			putchar(NoQE);
 		}
