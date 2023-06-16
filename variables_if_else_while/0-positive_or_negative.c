@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- *main - prints "the code generate a one number random to N and 
+ *main - prints "the code generate a one number random to N and
  * comparated whit 0 for now is a positive negativo or 0"
  *Return: Always 0.
  */
