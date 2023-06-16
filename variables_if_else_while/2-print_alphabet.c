@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	init l;
+	int l;
 	l = 97;
 	while(l < 122)
 	{
