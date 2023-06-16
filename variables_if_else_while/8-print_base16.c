@@ -6,16 +6,16 @@
 
 int main(void)
 {
-	char 16digitos;
+	char digitos;
 
-	for (16digitos = '0'; 16digitos <= '9'; 16digitos++)
+	for (digitos = '0'; digitos <= '9'; digitos++)
 	{
-		putchar(16digitos);
+		putchar(digitos);
 	}
 
-	for (16digitos = 'a'; 16digitos <= 'f'; 16digitos++)
+	for (digitos = 'a'; digitos <= 'f'; digitos++)
 	{
-		putchar(16digitos);
+		putchar(digitos);
 	}
 
 	putchar('\n');
