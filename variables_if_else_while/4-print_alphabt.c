@@ -4,13 +4,13 @@
  * Return: 0.
  */
 
-int main(void) 
+int main(void)
 {
 	char NoQE;
-	
+
 	for (NoQE = 'a'; NoQE <= 'z'; NoQE++)
 	{
-		if (NoQE != 'e' || 'q')
+		if (NoQE != 'e' && 'q')
 		{
 			putchar(NoQE);
 		}
