@@ -2,11 +2,10 @@
 
 int main(void)
 {
-	int l;
-	l = 97;
-	while(l < 122)
-	{
-		putchar(" %c ", l);
-		l++;
+	char letras;
+	for (letras = 'a'; letras <= 'z' letras++){
+		putchar(letras);
 	}
+	putchar('\n');
+	return 0;
 }
