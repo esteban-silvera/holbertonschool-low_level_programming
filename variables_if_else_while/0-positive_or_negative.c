@@ -3,8 +3,8 @@
 #include <time.h>
 
 /**
- *main - prints "the code generate a one number random to N and comparated whit
- 0 for now is a positive negativo or 0"
+ *main - prints "the code generate a one number random to N and 
+ * comparated whit 0 for now is a positive negativo or 0"
  *Return: Always 0.
  */
 
@@ -14,7 +14,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	
+
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
