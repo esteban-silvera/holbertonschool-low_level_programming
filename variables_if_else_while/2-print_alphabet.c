@@ -6,7 +6,7 @@ int main(void)
 	l = 97;
 	while(l < 122)
 	{
-		putchar("%c", l);
+		putchar(" %c ", l);
 		l++;
 	}
 }
