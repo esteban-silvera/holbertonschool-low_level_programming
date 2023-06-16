@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-init main(void)
+int main(void)
 {
 	init l;
 	l = 97;
