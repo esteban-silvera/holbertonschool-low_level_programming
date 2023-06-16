@@ -12,7 +12,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	un = n % 10;
 	if (un > 5){
-		printf("is %d and is less than  and not 0",un);
+		printf("is %d and is less than  and not 0",n);
 	}else if (un == 0){
 		printf("is 0 and is 0");
 	}else if (un < 6){
