@@ -1,10 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *print_alphabet- Entry point
- *Return: Always 0 (Success)
+ * print_alphabet- pritn function 
+ * Return: Always 0 (Success)
  */
-int  main(void)
+
+void print_alphabet(void);
 {
 	char x;
 
