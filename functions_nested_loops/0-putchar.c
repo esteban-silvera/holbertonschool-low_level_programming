@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.c"
+#include <main.c>
 
 /**
  * main - main function
