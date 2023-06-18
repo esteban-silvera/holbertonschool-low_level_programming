@@ -4,17 +4,17 @@
  * Return: 0.
  */
 
-	void print_alphabet_x10(void)
+void print_alphabet_x10(void)
 {
-	char abc;
-	int R;
+	char a;
+	int r;
 
-	for (R = 0; R <= 9; R++)
+	for (r = 0; r <= 9; r++)
 	{
-		for (abc = 'a' ; abc <= 'z'; abc++)
-			{
-				_putchar(abc);
-			}
-		_putchar('\n');
+	for (a = 'a' ; a <= 'z'; a++)
+	{
+		_putchar(a);
+	}
+	_putchar('\n');
 	}
 }
