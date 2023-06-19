@@ -16,7 +16,7 @@ int min;
 	_putchar(hor % 10 + '0');
 	_putchar(':');
 	_putchar(min / 10 + '0');
-	_putchar(mmin % 10 + '0');
+	_putchar(min % 10 + '0');
 	_putchar('\n');
 
 }
