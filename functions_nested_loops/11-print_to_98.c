@@ -1,6 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
+ *print_to_98 - function imprit to number 98
+ *@n; its a number recive
  *
  *Return: 
  */
