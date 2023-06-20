@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  *fizz - prints so muchs fizz
  *Return: Always 0 (Success)
