@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 /**
- * _isupper - funcition verifi is a number or not
+ * _isdigit - funcition verifi is a number or not
  *@c: is a paramet
  * Return: return 1 is a number 0 is dont a number
  */
 
-int _isupper(int c)
+int _isdigit(int c)
 {
         if (c >= '0' && c <= '9')
         {
