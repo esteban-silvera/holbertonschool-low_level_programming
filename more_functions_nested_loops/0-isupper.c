@@ -2,8 +2,9 @@
 #include <stdio.h>
 
 /**
- *
- *
+ * _isupper - funcition verifi is a uper or not
+ *@c: is a paramet
+ * Return: retur 1 is a uper return 0 is a lower
  */
 
 int _isupper(int c)
