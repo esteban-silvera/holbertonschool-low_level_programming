@@ -2,8 +2,9 @@
 #include <stdio.h>
 
 /**
- * _sterlen - length of a string
+ * _strlen - length of a string
  * @s: is the string retung the length
+ * Return: print the length of the string
  */
 
 int _strlen(char *s)
