@@ -1,14 +1,16 @@
 #include "main.h"
 
 /**
- * reset_to_98 - change te value to 98
- * @n: its a number paramet
+ * swap_int - swap the value a and b
+ * @a: its a first number paramet
+ * @b: its a second number paramet
  */
 
 void swap_int(int *a, int *b)
 {
 	int c;
+
 	c = *a;
-	a* = b*;
-	b = c;
+	*a = *b;
+	*b = c;
 }
