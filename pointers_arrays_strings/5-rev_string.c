@@ -16,7 +16,8 @@ void rev_string(char *s)
 		n++;
 	}
 	
-	a = n -z
+	a = n - 1;
+
 	for (x = 0; x < n / 2 ; x--)
 	{
 		rs = s[x];
