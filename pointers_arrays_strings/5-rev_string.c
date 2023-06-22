@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *print_rev - function print a text reverse
+ *rev_string - function print a text rev
  *@s: the string
  */
 
@@ -17,7 +17,7 @@ void rev_string(char *s)
 		x++;
 	}
 
-	j = x -1;
+	j = x - 1;
 
 	for (i = 0; i < x / 2; i++)
 	{
@@ -26,6 +26,4 @@ void rev_string(char *s)
 		s[j] = o;
 		j--;
 	}
-
-
 }
