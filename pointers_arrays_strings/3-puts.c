@@ -5,7 +5,7 @@
  * @str: the text
  */
 
-void _puts(char *str);
+void _puts(char *str)
 {
 	int x;
 
