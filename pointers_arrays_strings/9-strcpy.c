@@ -17,7 +17,7 @@ char *_strcpy(char *dest, char *src)
 		x++;
 	}
 	
-	swat[x] = '\0';
+	dest[x] = '\0';
 
 	return dest;
 }
