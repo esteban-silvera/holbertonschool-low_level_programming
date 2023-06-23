@@ -1,26 +1,25 @@
 #include "main.h"
 
 /**
- * _strcat - the fuction add one string to another
+ * _strncat - the fuction add one string to another
  * @dest: the string whit the two text
  * @src: the strig go to pas to dest
+ * @n; a value
  * Return: result
  */
 
 char *_strncat(char *dest, char *src, int n)
 {
-
+	int x;
 	int nu;
-	
-	n = 0;
 
-	while (dest[n] != '\0')
+	while (dest[x] != '\0')
 	{
-		n++;
+		x++;
 	}
-	for (nu = 0; src[nu] != '\0'; nu++, n++;)
+	for (nu = 0; src[nu] != n; nu++, x++)
 	{
-		dest[n] = src[nu];
+		dest[x] = src[nu];
 	}
 
 	return (dest);
