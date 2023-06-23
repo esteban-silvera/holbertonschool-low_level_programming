@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
- *
- *
+ * _strcat - the fuction add one string to another
+ * @dest: the string whit the two text
+ * @src: the strig go to pas to dest
+ * Return: result
  */
 
 char *_strcat(char *dest, char *src)
@@ -21,5 +23,5 @@ char *_strcat(char *dest, char *src)
 	dest[n] = '\0';
 
 	return (dest);
-	
+
 }
