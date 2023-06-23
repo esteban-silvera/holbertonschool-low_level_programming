@@ -1,8 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *
- *
+ * print_array - this print a array
+ * @a: this the array
+ * @n: this is the amont go to print
  */
 
 
@@ -21,6 +22,5 @@ void print_array(int *a, int n)
 
 
 	}
-	printf("\2")
-
+	printf("\n");
 }
