@@ -4,6 +4,7 @@
  * _strcpy - is the function
  * @dest: destinatarion
  * @src: lo que hay que copiar
+ * Return : the string
  */
 
 char *_strcpy(char *dest, char *src)
@@ -16,5 +17,5 @@ char *_strcpy(char *dest, char *src)
 		x++;
 	}
 
-	dest[x] = '\0';
+	return (x);
 }
