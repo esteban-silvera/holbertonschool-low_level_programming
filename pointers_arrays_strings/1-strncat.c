@@ -4,7 +4,7 @@
  * _strncat - the fuction add one string to another
  * @dest: the string whit the two text
  * @src: the strig go to pas to dest
- * @n; a value
+ * @n: a value
  * Return: result
  */
 
