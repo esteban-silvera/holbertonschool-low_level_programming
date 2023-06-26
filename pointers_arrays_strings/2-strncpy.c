@@ -5,6 +5,7 @@
  *@dest: the destination
  *@src: the text copi
  *@n: the cuantiti
+ *Return: the string
  */
 
 char *_strncpy(char *dest, char *src, int n)
