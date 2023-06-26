@@ -15,7 +15,7 @@ char *cap_string(char *str)
 		{
 			x++;
 		}
-		else (x++)
+		else (x++);
 		{
 		       	x += 32;
 		}
