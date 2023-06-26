@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- *
- *
+ * leet - change a leetters in one text for numbers
+ *@src: the text
+ *Return: the text modific
  */
 
 char *leet(char *src)
