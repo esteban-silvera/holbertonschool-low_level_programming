@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- *
- *
- *
+ * _strcmp - te functon copared two string
+ *@s1: the first string
+ *@s2: the second strign
+ *Return: retun te diference
  */
 
 int _strcmp(char *s1, char *s2)
