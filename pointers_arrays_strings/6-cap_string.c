@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- *
- *
+ * cap_string - imprit the text
+ * Return: return the text modific
  */
 
 char *cap_string(char *str)
