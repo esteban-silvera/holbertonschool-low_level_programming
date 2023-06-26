@@ -3,7 +3,7 @@
 /**
  * string_toupper - the fuction change te lower for uper case
  *@a: the string
- *Return: the string 
+ *Return: the string
  */
 
 char *string_toupper(char *a)
@@ -12,7 +12,7 @@ char *string_toupper(char *a)
 
 	while (a[x])
 	{
-		if(a[x] = 'a' && a[x] <= 'z')
+		if (a[x] = 'a' && a[x] <= 'z')
 			a[x] -= 32;
 		x++;
 	}
