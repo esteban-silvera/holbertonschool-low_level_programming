@@ -13,7 +13,7 @@ char *cap_string(char *str)
 	{
 	if (str[x] >= 'a' && str[x] <= 'z')
 		{
-			if (x == 0|| str[x] - 1 == '.' || str[x - 1] == ' ' || str[x - 1] == '\t'|| str[x] - 1 == '!' || str[x] - 1 == ',' || str[x] - 1 == ',' || str[x] - 1 == ';' || str[x] - 1 == '?' || str[x] - 1 == '"' || str[x] - 1 == '(' || str[x] - 1 == ')' || str[x] - 1 == '{' || str[x] - 1 == '}' || str[x] - 1 == '\n')
+			if (str[x] - 1 == '.' || str[x - 1] == ' ' || str[x - 1] == '\t'|| str[x] - 1 == '!' || str[x] - 1 == ',' || str[x] - 1 == ';' || str[x] - 1 == '?' || str[x] - 1 == '"' || str[x] - 1 == '(' || str[x] - 1 == ')' || str[x] - 1 == '{' || str[x] - 1 == '}' || str[x] - 1 == '\n' || x == 0)
 			{
 				str[x] -= 32;
 			}
