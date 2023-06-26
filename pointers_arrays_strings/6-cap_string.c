@@ -11,14 +11,15 @@ char *cap_string(char *str)
 
 	while (str[x])
 	{
-		if (str[x] != ',' || ';' ||'.' || '!' || '?' || '"' || '(' || ')' || '{' || '}')
+	if (str[x] >= 'a' && str[x] <= 'z')
 		{
-			x++;
+			if (x== 0 || str[x - 1] == ' ' || str[x - 1] == '\t')
+			{
+				str[x] -= 32;
+			}
 		}
-		else (x++);
-		{
-		       	x += 32;
-		}
+	x++;
 	}
+	return (str);
 
 }
