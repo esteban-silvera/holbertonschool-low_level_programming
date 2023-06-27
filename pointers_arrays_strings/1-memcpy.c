@@ -1,20 +1,20 @@
 #include "main.h"
 
 /**
- * _memset - sript function
+ * _memcpy - sript function
  * @s: the recibe
  * @b: the content
  * @n: the cuantiti
- * Return: retunr the new content
+ * Return: the cont modific
  */
 
-char *_memset(char *s, char b, unsigned int n)
+char *_memcpy(char *dest, char *src, unsigned int n);
 {
 	unsigned int x;
 
 	for (x = 0; x < n; x++)
 	{
-		s[x] = b;
+		s[x] = b[x];
 	}
 	return (s);
 }
