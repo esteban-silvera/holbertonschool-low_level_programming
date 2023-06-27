@@ -2,8 +2,8 @@
 
 /**
  * _memcpy - sript function
- * @s: the recibe
- * @b: the content
+ * @dest: the recibe
+ * @src: the content
  * @n: the cuantiti
  * Return: the cont modific
  */
