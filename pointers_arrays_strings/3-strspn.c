@@ -3,7 +3,7 @@
 /**
  *_strspn -  length a substring
  *@s: substring
- *@accept: value 
+ *@accept: value
  *Return: Return i
  */
 unsigned int _strspn(char *s, char *accept)
