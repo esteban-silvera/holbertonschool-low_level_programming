@@ -1,8 +1,11 @@
 #include "main.h"
 
 /**
- *
- *
+ * _memset - sript function
+ * @s: the recibe 
+ * @b: the content 
+ * @n: the cuantiti 
+ * Return:
  */
 
 char *_memset(char *s, char b, unsigned int n)
