@@ -8,6 +8,8 @@
 
 int factorial(int n)
 {
+	int x;
+
 	if (n < 0)
 	{
 		n * n - 1;
@@ -19,6 +21,7 @@ int factorial(int n)
 	}
 	else 
 	{
-		factorial(n * n - 1);
+		x = n - 1
+		factorial(n * x);
 	}
 }
