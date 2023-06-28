@@ -3,6 +3,7 @@
 /**
  * _strlen_recursion - return the log of the string
  * @s: the string
+ * Return: a value
  */
 
 int _strlen_recursion(char *s)
