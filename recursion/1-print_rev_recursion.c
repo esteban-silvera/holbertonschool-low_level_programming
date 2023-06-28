@@ -1,16 +1,19 @@
 #include "main.h"
 
+/**
+ * _print_rev_recursion - print the string reverse mode
+ * @s: the string
+ */
 
 
 
 
 
-
-void int _strlen_recursion(char *s)
+void _print_rev_recursion(char *s)
 {
 	if (*s)
 	{
-		_puts_recursion(s + 1);
+		_print_rev_recursion(s + 1);
 		_putchar(*s);
 	}
 	else
