@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- *
- *
- *
+ *_puts_recursion - the fution is a bucle
+ *@s: is the string for a bucle
  */
 
 void _puts_recursion(char *s)
@@ -13,5 +12,5 @@ void _puts_recursion(char *s)
 		_putchar(*s);
 		_puts_recursion(s + 1);
 	}
-	_putchar('\0')
+	_putchar('\0');
 }
