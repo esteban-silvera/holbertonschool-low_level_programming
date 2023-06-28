@@ -14,8 +14,10 @@ void _puts_recursion(char *s)
 
 	while (n)
 	{
-		n != '\0';
+		if (n != '\0')
+		{
 			n++;
+		}
 	}
 	for (x = 0; x != n; x++)
 	{
