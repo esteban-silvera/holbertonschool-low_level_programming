@@ -2,7 +2,6 @@
 
 /**
  *is_prime_helper - the fuction is a bucle
- *is_prime_number - the fuction cerifi if a number prime
  *@n: the number prime
  *Return: the numbers
  *@i: the number for div
@@ -22,6 +21,10 @@ int is_prime_helper(int n, int i)
 
 	return (is_prime_helper(n, i - 1));
 }
+
+/**
+ * is_prime_number - the fuction cerifi if a number prime
+ */
 
 int is_prime_number(int n)
 {
