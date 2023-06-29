@@ -4,6 +4,8 @@
  *is_prime_helper - the fuction is a bucle
  *is_prime_number - the fuction cerifi if a number prime
  *@n: the number prime
+ *Return: the numbers
+ *@i: the number for div
  */
 
 
