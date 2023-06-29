@@ -3,11 +3,11 @@
 int
 is_mult_helper(int n, int i)
 {
-	if ((i * i) == 0)
+	if (i * i == n)
 	{
-		return (0);
+		return (i);
 	}
-	if (i == i / n)
+	if (i * i > n)
 	{
 		return (-1);
 	}
@@ -18,15 +18,13 @@ is_mult_helper(int n, int i)
 int
 _sqrt_recursion(int n)
 {
-	int i = 0;
-
 	if (n < 0)
 	{
 		return (-1);
 	}
-	if (n == 1)
+	if (n == 0)
 	{
 		return (1);
 	}
-	return (is_mult_helper(n, i));
+	return (is_mult_helper(n, 1));
 }
