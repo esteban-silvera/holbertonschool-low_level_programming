@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- *
- *
- *
+ *is_prime_helper - the fuction is a bucle
+ *is_prime_number - the fuction cerifi if a number prime
+ *@n: the number prime
  */
 
 
 int is_prime_helper(int n, int i)
 {
-    if (i <= 1)
+	if (i <= 1)
 	{
 		return (1);
 	}
