@@ -24,6 +24,8 @@ int is_prime_helper(int n, int i)
 
 /**
  * is_prime_number - the fuction cerifi if a number prime
+ * @n: the number prime
+ * Return: the numbers
  */
 
 int is_prime_number(int n)
