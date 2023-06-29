@@ -3,7 +3,7 @@
 int
 is_mult_helper(int n, int i)
 {
-	if ((i * i )== 0)
+	if ((i * i) == 0)
 	{
 		return (0);
 	}
