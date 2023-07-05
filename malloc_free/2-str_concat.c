@@ -6,6 +6,7 @@ char
 {
 	char *string;
 	int x, n, l;
+	int s;
 
 	if (s1 == NULL)
 	{
@@ -25,9 +26,9 @@ char
         {
                 n++;
         }
+	s = l + n;
 	
-	
-	string = malloc(sizeof(char) * l + n +1);
+	string = malloc(sizeof(char) * s +1);
 	if (!string)
 	{
 		return (NULL);
