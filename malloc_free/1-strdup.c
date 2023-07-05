@@ -8,6 +8,11 @@ char
 	int x;
 	int n = 0;
 
+	if (str ==  NULL)
+	{
+		return (NULL);
+	}
+
 	for (x = 0 ; str[x] != '\0'; x++)
 	{
 		n++;
