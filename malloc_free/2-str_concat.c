@@ -30,12 +30,13 @@ char
 	string = malloc(sizeof(char) * l + n +1);
 	if (!string)
 	{
-		return (NULL)
+		return (NULL);
 	}
 
 
 	for (x = 0; x != n; x++)
 	{
-	s1[l] = s2[x]
+	s1[l] = s2[x];
 	}
+	return (s1);
 }
