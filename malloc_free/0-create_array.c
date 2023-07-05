@@ -4,8 +4,8 @@
 char
 *create_array(unsigned int size, char c)
 {
-	char array;
-	int x;
+	char *array;
+	unsigned int x;
 
 	if (size == 0)
 	{
