@@ -6,14 +6,27 @@ char
 {
 	char *string;
 	int x;
-	
-	for (x = 0 ; x != '\0'; x++)
+	int n = 0;
+
+	for (x = 0 ; str[x] != '\0'; x++)
 	{
-	string[x] = str[x];
-	}	
+		n++
+	}
+
+	string = malloc(sizeof(char) * n);
+	if (!string)
+	{
+		return (NULL)
+	}
+
+	for (x = 0; x != n; x++)
+	{
+		string[x] = str[x]
+	}
+
 	if (string == NULL)
 	{
 		return (NULL);
 	}
-
+	return (string);
 }
