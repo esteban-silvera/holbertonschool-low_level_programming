@@ -18,7 +18,7 @@ char
 		n++;
 	}
 
-	string = malloc(sizeof(char) * n);
+	string = malloc(sizeof(char) * n + 1);
 	if (!string)
 	{
 		return (NULL);
