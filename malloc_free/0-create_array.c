@@ -13,6 +13,8 @@ char
 	}
 
 	array = malloc(sizeof(char) * size);
+	if (!array)
+		return (NULL);
 
 	for (x = 0; x < size; x++)
 	{
