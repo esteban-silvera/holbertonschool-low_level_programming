@@ -10,18 +10,18 @@ char
 
 	for (x = 0 ; str[x] != '\0'; x++)
 	{
-		n++
+		n++;
 	}
 
 	string = malloc(sizeof(char) * n);
 	if (!string)
 	{
-		return (NULL)
+		return (NULL);
 	}
 
 	for (x = 0; x != n; x++)
 	{
-		string[x] = str[x]
+		string[x] = str[x];
 	}
 
 	if (string == NULL)
