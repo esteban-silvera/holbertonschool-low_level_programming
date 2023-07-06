@@ -27,9 +27,9 @@ char
         {
                 n++;
         }
-	s = l + n;
+	s = l + 1 + 1 + n;
 	
-	string = malloc(sizeof(char) * s +1);
+	string = malloc(sizeof(char) * s);
 	if (!string)
 	{
 		return (NULL);
