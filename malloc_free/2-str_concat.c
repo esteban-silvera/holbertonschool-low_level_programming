@@ -8,6 +8,7 @@ char
 	int x, n, l;
 	int s;
 
+	/**
 	if (s1 == NULL)
 	{
 		return (NULL);
@@ -16,7 +17,7 @@ char
         {
                 return (NULL);
         }
-
+	*/
 	
 	for (x = 0; s1[x] != '\0'; x++)
 	{
