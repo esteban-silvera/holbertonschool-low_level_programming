@@ -8,39 +8,32 @@ char
 	int x, n = 0, l = 0;
 	int s;
 
-	
 	if (s1 == NULL)
 	{
-		s1 = "";
+	s1 = "";
 	}
 	if (s2 == NULL)
         {
-		s2 = "";
+	s2 = "";
         }
-	
-	
 	for (x = 0; s1[x] != '\0'; x++)
 	{
-		l++;
+	l++;
 	}
 	for (x = 0; s2[x] != '\0'; x++)
         {
-                n++;
+        n++;
         }
 	s = l + n;
-	
 	string = malloc(sizeof(char) * s + 1);
 	if (!string)
 	{
-		return (NULL);
+	return (NULL);
 	}
-
-
 	for (x = 0; x != l; x++)
 	{
 	string[x] = s1[x];
 	}
-
 	for (x = 0; x != n; x++, l++)
 	{
 	string[l] = s2[x];
