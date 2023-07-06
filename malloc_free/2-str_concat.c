@@ -8,16 +8,16 @@ char
 	int x, n, l;
 	int s;
 
-	/**
+	
 	if (s1 == NULL)
 	{
-		return (NULL);
+		s1 = " ";
 	}
-	if (s1 == NULL)
+	if (s2 == NULL)
         {
-                return (NULL);
+		s2 = " ";
         }
-	*/
+	
 	
 	for (x = 0; s1[x] != '\0'; x++)
 	{
