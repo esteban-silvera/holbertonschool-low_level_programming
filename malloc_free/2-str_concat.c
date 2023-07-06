@@ -36,9 +36,14 @@ char
 	}
 
 
-	for (x = 0; x != n; x++)
+	for (x = 0; x != l; x++)
 	{
-	s1[l] = s2[x];
+	string[x] = s1[x];
+	}
+
+	for (x = 0; x != n; x++, l++)
+	{
+	string[l] = s2[x];
 	}
 	return (s1);
 }
