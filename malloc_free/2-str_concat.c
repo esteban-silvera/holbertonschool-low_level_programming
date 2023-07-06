@@ -45,5 +45,5 @@ char
 	{
 	string[l] = s2[x];
 	}
-	return (s1);
+	return (string);
 }
