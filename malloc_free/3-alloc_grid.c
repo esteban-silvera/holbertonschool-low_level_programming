@@ -7,14 +7,6 @@ int
 	int **x;
 	int a, w;
 
-	if (width == '\0')
-	{
-		return ('\0');
-	}
-	if (height == '\0')
-	{
-		return ('\0');
-	}
 	if (width <= 0)
 	{
 		return ('\0');
