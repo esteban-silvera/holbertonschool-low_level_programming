@@ -35,7 +35,7 @@ int
 
 		if (x[a] == NULL)
 		{
-			for(a >= 0; a--)
+			for(; a >= 0; a--)
 			{
 				free(x[a]);
 			}
