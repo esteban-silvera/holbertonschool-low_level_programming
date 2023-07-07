@@ -11,8 +11,8 @@ int
 	{
 		return (NULL);
 	}
-	
-	x = malloc(sizeof(int*) * height);
+
+	x = malloc(sizeof(int *) * height);
 	if (!x)
 	{
 		return (NULL);
@@ -23,9 +23,9 @@ int
 
 		if (x[a] == NULL)
 		{
-			for(w = 0; w <= a; a++)
+			for (w = 0; w <= a; w++)
 			{
-				free(x[a]);
+				free(x[w]);
 			}
 			free(x);
 			return (NULL);
