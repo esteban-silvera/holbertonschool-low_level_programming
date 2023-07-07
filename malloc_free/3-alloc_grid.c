@@ -23,7 +23,7 @@ int
 
 		if (x[a] == NULL)
 		{
-			for(; a > 0; a--)
+			for(w = 0; w <= a; a++)
 			{
 				free(x[a]);
 			}
