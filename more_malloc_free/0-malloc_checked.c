@@ -4,9 +4,9 @@
 void
 *malloc_checked(unsigned int b)
 {
-	int *x;
+	void *x;
 
-	x = malloc(b)
+	x = malloc(b);
 	if (!x)
 	{
 		exit(98);
