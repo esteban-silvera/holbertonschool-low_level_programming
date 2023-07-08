@@ -7,7 +7,7 @@ void
 	void *x;
 
 	x = malloc(b);
-	if (!x)
+	if (x == NULL)
 	{
 		exit(98);
 	}
