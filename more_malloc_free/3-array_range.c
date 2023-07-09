@@ -16,4 +16,5 @@ int
 	{
 		string[x] = min;
 	}
+	return (string);
 }
