@@ -7,7 +7,7 @@ int
 	int x;
 	int *num;
 
-	if (min > mac)
+	if (min > max)
 	{
 		return (NULL);
 	}
