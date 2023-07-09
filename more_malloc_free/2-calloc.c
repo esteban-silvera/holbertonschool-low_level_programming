@@ -5,8 +5,7 @@ void
 *_calloc(unsigned int nmemb, unsigned int size)
 {
 	unsigned int x;
-	char *string;
-	
+	char *string;	
 
 	if (nmemb == 0)
 	{
