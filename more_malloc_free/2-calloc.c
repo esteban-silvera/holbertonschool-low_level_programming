@@ -4,8 +4,9 @@
 void
 *_calloc(unsigned int nmemb, unsigned int size)
 {
+	unsigned int x;
 	char *string;
-	unsigned int x:
+	
 
 	if (nmemb == 0)
 	{
