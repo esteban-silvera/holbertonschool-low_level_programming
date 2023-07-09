@@ -16,7 +16,7 @@ char
 	{
 		b++;
 	}
-	string = malloc(sizeof(char*) * b + n);
+	string = malloc(sizeof(char) * b + n);
 	if (!string)
 	{
 		return (NULL);
