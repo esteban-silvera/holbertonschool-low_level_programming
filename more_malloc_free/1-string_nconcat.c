@@ -29,6 +29,10 @@ char
 	{
 		string = malloc(sizeof(char) * (b + n) + 1);
 	}
+	else
+	{
+		string = malloc(sizeof(char));
+	}
 	if (!string)
 	{
 		return (NULL);
