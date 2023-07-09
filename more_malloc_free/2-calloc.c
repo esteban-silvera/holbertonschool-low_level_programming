@@ -14,7 +14,7 @@ void
 	}
 	if (size == 0)
 	{
-		return (NULL)
+		return (NULL);
 	}
 
 	string = malloc(nmemb * size);
@@ -26,4 +26,5 @@ void
 	{
 		string[x] = 0;
 	}
+	return (string);
 }
