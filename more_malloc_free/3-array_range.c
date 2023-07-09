@@ -12,8 +12,8 @@ int
 	{
 	return (NULL);
 	}
-	for (x = 0; x != max; x++)
+	for (x = 0; x != max; x++, min++)
 	{
-		string[x] = min[x];
+		string[x] = min;
 	}
 }
