@@ -12,7 +12,7 @@ int
 	{
 	return (NULL);
 	}
-	for (x = 0; min != max; x++, min++)
+	for (x = 0; min <= max; x++, min++)
 	{
 		num[x] = min;
 	}
