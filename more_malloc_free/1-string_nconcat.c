@@ -27,7 +27,7 @@ char
 	}
 	if (n > 1)
 	{
-		string = malloc(sizeof(char) * b + n + 1);
+		string = malloc(sizeof(char) * (b + n) + 1);
 	}
 	if (!string)
 	{
@@ -38,9 +38,10 @@ char
 	{
 		string[x] = s1[x];
 	}
-	for (ux = 0 ; ux != n; ux++, b++)
+	for (ux = 0 ; s2[ux] != '\0' && ux < n; ux++, b++)
 	{
 		string[b] = s2[ux];
 	}
+	string[b] = '\0';
 	return (string);
 }
