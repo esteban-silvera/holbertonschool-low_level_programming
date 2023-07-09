@@ -8,7 +8,7 @@ int
 	int *num;
 
 	num = malloc(sizeof(char*) * max);
-	if (!string)
+	if (!num)
 	{
 	return (NULL);
 	}
