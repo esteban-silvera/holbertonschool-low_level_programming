@@ -8,6 +8,15 @@ char
 	unsigned ux;
 	char *string;
 
+	if (s1 == '\0')
+	{
+		s2 = "";
+	}
+	if (s2 == '\0')
+	{
+		s2 = "";
+	}
+
 	for (x = 0; s2[x] != '\0'; x++)
 	{
 		l++;
