@@ -8,11 +8,11 @@ char
 	unsigned ux;
 	char *string;
 
-	if (s1 == '\0')
+	if (s1 == NULL)
 	{
 		s2 = "";
 	}
-	if (s2 == '\0')
+	if (s2 == NULL)
 	{
 		s2 = "";
 	}
