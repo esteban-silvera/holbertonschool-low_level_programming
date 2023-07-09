@@ -11,7 +11,7 @@ int
 	{
 		return (NULL);
 	}
-	num = malloc((max - min + 1) * sizeof(int*));
+	num = malloc((max - min + 1) * sizeof(int));
 	if (!num)
 	{
 	return (NULL);
