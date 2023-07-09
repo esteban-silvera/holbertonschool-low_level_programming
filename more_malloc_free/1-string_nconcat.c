@@ -27,11 +27,7 @@ char
 	}
 	if (n > 1)
 	{
-		string = malloc((b + 1 + 1) * sizeof(char));
-	}
-	else
-	{
-		string = malloc((b + n + 1) * sizeof(char));
+		string = malloc((sizeof(char) * b + n + 1)
 	}
 	if (!string)
 	{
