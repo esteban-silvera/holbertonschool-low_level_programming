@@ -7,7 +7,11 @@ int
 	int x;
 	int *num;
 
-	num = malloc(sizeof(char*) * max);
+	if (min > mac)
+	{
+		return (NULL);
+	}
+	num = malloc(sizeof(int*) * max);
 	if (!num)
 	{
 	return (NULL);
