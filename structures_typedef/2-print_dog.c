@@ -12,7 +12,7 @@ print_dog(struct dog *d)
 		}
 		else
 		{
-			printf("Name: %s\n", d->age);
+			printf("Name: %s\n", d->name);
 		}
 
 		printf("Age: %f\n", d ->age);
