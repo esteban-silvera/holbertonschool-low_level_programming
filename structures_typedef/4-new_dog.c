@@ -48,7 +48,7 @@ dog_t
 		free(doggo);
 		return (NULL);
 	}
-	doggo_owner = _strdup(name);
+	doggo_owner = _strdup(owner);
 	if (!doggo_owner)
 	{
 		free(doggo_name);
