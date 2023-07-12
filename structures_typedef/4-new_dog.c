@@ -18,7 +18,7 @@ char
 		length++;
 	}
 
-	arr = (char*) malloc(length * sizeof(char) + 1);
+	arr = (char *) malloc(length * sizeof(char) + 1);
 	if (arr == NULL)
 		return (NULL);
 
@@ -57,5 +57,5 @@ dog_t *new_dog(char *name, float age, char *owner)
 	doggo->name = doggo_name;
 	doggo->age = age;
 	doggo->owner = doggo_owner;
-	return(doggo);
+	return (doggo);
 }
