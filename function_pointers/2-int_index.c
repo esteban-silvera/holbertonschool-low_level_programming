@@ -3,7 +3,7 @@
 int
 int_index(int *array, int size, int (*cmp)(int))
 {
-	unsigned int x = 0;
+	int x = 0;
 
 	if (array != NULL && cmp != NULL)
 	{
