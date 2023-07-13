@@ -2,14 +2,14 @@
 void
 array_iterator(int *array, size_t size, void (*action)(int))
 {
-	unsigned int i = 0;
+	unsigned int x = 0;
 
 	if (array != NULL && action != NULL && size > 0)
 	{
-		while (i < size)
+		while (x < size)
 		{
-			action(array[i]);
-			i++;
+			action(array[x]);
+			x++;
 		}
 	}
 }
