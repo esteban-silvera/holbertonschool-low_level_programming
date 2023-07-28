@@ -5,7 +5,7 @@
 
 list_t *add_node(list_t **head, const char *str)
 {
-	list_t *list2
+	list_t *list2;
 	char str2;
 	int x;
 
