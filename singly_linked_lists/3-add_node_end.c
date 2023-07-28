@@ -4,9 +4,9 @@
 #include "lists.h"
 
 list_t
-*add_node(list_t **head, const char *str)
+*add_node_end(list_t **head, const char *str)
 {
-	list_t *list2;
+	list_t *list2, *last;
 	char *str2;
 	int x;
 
@@ -32,7 +32,19 @@ list_t
 	list2->len = x;
 	list2->next = *head;
 
-	*head = list2;
+	if (*head == NULL)
+	{
+		*head = list2;
+	}
+	else
+	{
+		last = *head;
+		while (last->next != NULL)
+		{
+			last = last->next;
+		}
+		last->next = list2;
+	}
 
-	return (list2);
+	return (*head);
 }
