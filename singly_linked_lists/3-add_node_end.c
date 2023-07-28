@@ -30,7 +30,7 @@ list_t
 
 	list2->str = str2;
 	list2->len = x;
-	list2->next = *head;
+	list2->next = NULL;
 
 	if (*head == NULL)
 	{
