@@ -13,23 +13,21 @@ dlistint_t
 	if (list_2 == NULL)
 		return (NULL);
 
-	list_2->n = n;
-	list_2->prev = NULL;
-	list_2->next = NULL;
+	new->n = n;
+	new->next = NULL;
 
 	if (*head == NULL)
 	{
-		*head = list_2;
-	}
-	else
-	{
-		last = *head;
-		while (last->next != NULL)
-		{
-			last = last->next;
-		}
-		last->next = list_2;
+		new->prev = NULL;
+		*head = new;
+		return (new);
 	}
 
-	return (*head);
+	last = *head;
+	while (last->next != NULL)
+		last = last->next;
+	last->next = new;
+	new->prev = last;
+
+	return (new);
 }
