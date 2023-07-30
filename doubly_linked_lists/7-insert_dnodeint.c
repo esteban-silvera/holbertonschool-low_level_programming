@@ -18,7 +18,9 @@ dlistint_t
 	{
 		tmp = tmp->next;
 		if (tmp == NULL)
+		{
 			return (NULL);
+		}
 	}
 
 	if (tmp->next == NULL)
@@ -34,10 +36,13 @@ dlistint_t
 	}
 
 	list_2->n = n;
-	list_2->prev = tmp;
+	list_2->prev = tmp->prev;
 	list_2->next = tmp->next;
-	list_2->next->prev = list_2;
-	list_2->next = list_2;
+	if (tmp->prev != NULL)
+	{
+		tmp->prev->next = list_2;
+	}
+	tmp->prev = list_2;
 
 	return (list_2);
 }
