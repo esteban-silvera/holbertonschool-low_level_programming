@@ -26,7 +26,7 @@ dlistint_t
 		return (add_dnodeint_end(h, n));
 	}
 
-	new = malloc(sizeof(dlistint_t));
+	list_2 = malloc(sizeof(dlistint_t));
 
 	if (list_2 == NULL)
 	{
