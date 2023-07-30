@@ -21,8 +21,8 @@ binary_to_uint(const char *b)
 		{
 			return (0);
 		}
-		x += (b[len] - '0') * m;
+		x += (b[num] - '0') * m;
 		m *= 2;
 	}
-
+	return (x);
 }
