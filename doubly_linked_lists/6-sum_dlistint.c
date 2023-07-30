@@ -14,7 +14,7 @@ sum_dlistint(dlistint_t *head)
 		return (0);
 	}
 
-	while (n)
+	while (head)
 	{
 		x += head->n;
 		head = head->next;
