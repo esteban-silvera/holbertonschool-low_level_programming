@@ -6,7 +6,8 @@ print_binary(unsigned long int n) {
 	unsigned long int mask = 1UL << (sizeof(unsigned long int) * 8 - 1);
 	int x = 0;
 
-	while (mask) {
+	while (mask)
+	{
 		if (n & mask)
 		{
 			putchar('1');
@@ -15,14 +16,15 @@ print_binary(unsigned long int n) {
 		else if (x)
 		{
 			putchar('0');
-	        }
-
-		mask >>= 1;
 		}
 
-	if (!x) {
+		mask >>= 1;
+	}
+
+	if (!x)
+	{
 		putchar('0');
 	}
 
-	putchar('\n');
+
 }
